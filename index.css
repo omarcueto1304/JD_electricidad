@@ -1,0 +1,403 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CELULARES -----------------------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+    .Nav{
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        background-color:blanchedalmond;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+     }
+
+     .item_menu{
+        display: none;
+     }
+
+.Carrusel{
+    margin-top: 1rem;
+}
+
+    .menu{
+        display: none;  
+   
+    }
+
+    .nosotros{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+    .linea{
+    perspective: 1000px;
+    width: 100px;
+    height: 5px;
+    background-color:rgb(26,158,156);
+    border-color: rgb(26,158,156);
+    margin-top: 0px;
+    margin-bottom: 1.5rem
+}
+
+.texto_nosotros{
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Servicios {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.card{
+    width: 20rem;
+    margin-top: 0.5rem;
+ 
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.Contacto{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos_contacto{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefono{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-weight:700;
+}
+.correo{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-weight:700;
+}
+
+.footer{
+    width: 100vw;
+}
+.item_menu{
+        list-style: none;
+}
+
+.menu_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+}
+
+
+/* TABLETS -----------------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .Nav{
+        display: flex;  
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        background-color:blanchedalmond;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+     }
+
+     .marca{
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+     }
+
+     .item_menu{
+        display: none;
+     }
+
+
+.Carrusel{
+    margin-top: 1rem;
+}
+
+    .menu{
+        display: flex;  
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        background-color:blanchedalmond; 
+        width: 100vw;    
+    }
+
+    .nosotros{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+    .linea{
+    perspective: 1000px;
+    width: 100px;
+    height: 5px;
+    background-color:rgb(26,158,156);
+    border-color: rgb(26,158,156);
+    margin-top: 0px;
+    margin-bottom: 1.5rem
+}
+
+.texto_nosotros{
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Servicios {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card{
+    width: 20rem;
+    margin-top: 0.5rem;
+    margin: 0.5rem 0.5rem 0rem 0.5rem
+ 
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.Contacto{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos_contacto{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu_footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.telefono{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-weight:700;
+}
+.correo{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-weight:700;
+}
+
+.item_menu{
+        list-style: none;
+        background-color: blanchedalmond;
+}
+
+}
+/* computadoras -----------------------------------------------------------------------------------------------*/
+
+@media (min-width: 1201px) {
+
+    .Nav{
+        display: flex;  
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        width: 100vw;
+        background-color:blanchedalmond;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+     }
+
+     .marca{
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+     }
+
+     .item_menu{
+        text-decoration:none;
+        list-style: none;
+        font-size:1.5rem;
+        margin: 10px 5px 10px 5px;
+        color: black; 
+        background-color: blanchedalmond;
+    }
+
+
+    .menu{
+        display: flex;  
+        flex-direction: row;
+        justify-content: left;
+        background-color:blanchedalmond; 
+    }
+
+    .Carrusel{
+    margin-top: 1rem;
+    width: 100vw;
+}
+
+    .nosotros{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+    .linea{
+    perspective: 1000px;
+    width: 100px;
+    height: 5px;
+    background-color:rgb(26,158,156);
+    border-color: rgb(26,158,156);
+    margin-top: 0px;
+    margin-bottom: 1.5rem
+}
+
+.texto_nosotros{
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Servicios {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    width: 20rem;
+    margin-top: 0.5rem;
+    margin: 0.5rem 0.5rem 0rem 0.5rem
+ 
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.Contacto{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos_contacto{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefono{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-weight:700;
+}
+.correo{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-weight:700;
+}
+
+.footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu_footer{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+}
